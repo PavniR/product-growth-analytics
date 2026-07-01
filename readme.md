@@ -28,9 +28,9 @@ This project aims to answer the following business questions:
 ---
 ## Dashboard Demo
 
-![Dashboard Demo](dashboard-demo.gif)
+![Dashboard Demo](dashboard-vid.gif)
 
-For detailed report: [Executive Summary](executive-summary.pdf)
+For detailed report: [Executive Summary (pdf)](executive-summary.pdf)
 ---
 
 ## Dataset
