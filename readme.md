@@ -169,33 +169,43 @@ For detailed report: [Executive Summary](executive-summary.pdf)
 
 ### Funnel Analysis
 
+Funnel conversion was calculated at the user level using sequential stage flags. Users were counted in a later stage only if they had also completed the preceding stage.
+
 | Stage | Users |
-|--------|-------:|
+|---|---:|
 | Viewed Products | 1,404,179 |
-| Added to Cart | 37,722 |
-| Purchased | 11,719 |
+| Added to Cart after Viewing | 34,401 |
+| Purchased after Viewing and Adding to Cart | 10,228 |
 
 Conversion Rates:
 
-- View → Cart: **2.69%**
-- Cart → Purchase: **31.07%**
-- Overall: **0.83%**
+- View → Cart: **2.45%**
+- Cart → Purchase: **29.73%**
+- Overall sequential conversion: **0.73%**
 
-The largest drop-off occurs before users add products to their cart.
+The largest drop-off occurs between product viewing and cart addition, indicating an opportunity 
+to improve product discovery, product-page quality, and purchase intent.
 
 ### RF User Segmentation
 
-Customers were segmented into:
 
-- Champions
-- High-Value Users
-- Emerging Users
-- Casual Users
-- Declining Users
-- Inactive Users
+Since transaction values were unavailable, customers were segmented using a modified Recency-Frequency (RF) framework.
+
+
+Six behavioral customer segments were identified:
+| segment | customers |
+|---|---:|
+| Champions |	767 |
+| High frequency users |	2208 |
+| Emerging users |	2162 |
+| Casual users |	2149 |
+| Declining Users |	2215 |
+| Inactive users |	2218 |
 
 The analysis revealed that repeat purchasing is relatively uncommon, with an average purchase frequency of **1.92** purchases per buyer.
 
+
+> Note: The Power BI dashboard will be refreshed in a future update to reflect these revised sequential funnel calculations.
 ---
 
 ## Business Recommendations

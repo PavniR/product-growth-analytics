@@ -177,6 +177,9 @@ from rf_scores;
 
 --added segment-order for ease in visualisation
 
+select segment_order, customer_segment, count(*) as customers from rf_score_segments 
+group by customer_segment, segment_order
+order by segment_order
 
 
 
