@@ -204,8 +204,12 @@ Six behavioral customer segments were identified:
 
 The analysis revealed that repeat purchasing is relatively uncommon, with an average purchase frequency of **1.92** purchases per buyer.
 
-
 > Note: The Power BI dashboard will be refreshed in a future update to reflect these revised sequential funnel calculations.
+
+## Illustrative Business Impact Scenario
+
+This is a scenario estimate, not a measured uplift. The sequential funnel recorded **1,404,179 product viewers**, a **2.45% view-to-cart rate**, and a **29.73% cart-to-purchase rate**. Raising view-to-cart by one percentage point while holding downstream conversion constant would generate approximately **14,042 additional cart users** and **4,175 additional purchasers** (`1,404,179 × 1% × 29.73%`). An experiment would be required to confirm the uplift and account for traffic quality and capacity constraints.
+
 ---
 
 ## Business Recommendations
